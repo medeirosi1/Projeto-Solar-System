@@ -11,6 +11,7 @@ class Mission extends React.Component {
         {
           missions.map((missao, i) => {
             const { name, year, country, destination } = missao;
+            // Ajuda do colega Hugo na questão do Lint em MissionCard"
             return (<MissionCard
               key={ i }
               name={ name }
