@@ -8,19 +8,21 @@ class Mission extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        {
-          missions.map((missao, i) => {
-            const { name, year, country, destination } = missao;
-            // Ajuda do colega Hugo na questão do Lint em MissionCard"
-            return (<MissionCard
-              key={ i }
-              name={ name }
-              year={ year }
-              country={ country }
-              destination={ destination }
-            />);
-          })
-        }
+        <div className="card-container">
+          {
+            missions.map((missao, i) => {
+              const { name, year, country, destination } = missao;
+              // Ajuda do colega Hugo na questão do Lint em MissionCard"
+              return (<MissionCard
+                key={ i }
+                name={ name }
+                year={ year }
+                country={ country }
+                destination={ destination }
+              />);
+            })
+          }
+        </div>
       </div>
     );
   }

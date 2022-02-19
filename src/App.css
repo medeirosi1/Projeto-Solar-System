@@ -1,3 +1,79 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/bbbf2a17-987c-4fe6-b190-ac8fe0e235e9);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
   text-align: center;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 50%;
+  color: lightblue;
+  margin-bottom: 20px;
+}
+
+.divsubtitulos {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulos {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 60%;
+  padding: 6px;
+}
+
+.planets {
+  display: flex;
+  margin: 40px 0;
+}
+
+p {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.cards {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0 0px 10px 0px;
+  flex-basis: 1;
+  flex-grow: 2;
+  width: 20%;
+}
+
+#planetname {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid white;
+  padding: 0 0 10px 0;
 }
