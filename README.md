@@ -45,7 +45,7 @@ $ npm start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **FrontEnd**  ([React](https://reactjs.org/)
+#### **FrontEnd**  [React](https://reactjs.org/) + [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[React Scritps](https://www.npmjs.com/package/react-scripts)**
